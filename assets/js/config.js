@@ -1,5 +1,5 @@
 seajs.config({
-    base: '../docs/assets/js/',
+    base: '../Resume/assets/js/',
     alias: {
         "jquery": "jquery",
         "bootstrap": "bootstrap",
