@@ -2,7 +2,7 @@
 <html lang="zh">
 <head>
     <meta charset="UTF-8">
-    <title>YuxingMa</title>
+    <title>Resume</title>
     <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
     <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/waves.css">
@@ -12,24 +12,30 @@
 <div class="container">
     <div class="row cvheader">
         <div class="col-lg-7 col-md-7 col-xs-12">
-            <h1 class="text-primary">Yuxing Ma</h1>
+            <h1 class="text-primary">rhythmdiao</h1>
 
-            <p><span class="glyphicon glyphicon-paperclip"></span> Software Developer</p>
+            <p><span class="glyphicon glyphicon-heart"></span> Software Developer</p>
+
+            <p><span class="glyphicon glyphicon-envelope"></span> rhythmdiao@163.com</p>
+
+            <p><span class="glyphicon glyphicon-paperclip"></span> <a
+                    href="http://cn.linkedin.com/pub/yuxing-ma/67/525/41">Linkedin</a></p>
+
+            <p><span class="glyphicon glyphicon-briefcase"></span> <a href="http://github.com/Rhythmdiao">Github</a></p>
         </div>
 
         <div class="col-lg-3 col-md-3 col-xs-12">
             <div class="row">
-
-                <div class="col-lg-4 col-md-4 col-xs-4">
-                    <p id="contact" class="address text-center">联系</p>
-                </div>
-
                 <div class="col-lg-8 col-md-8 col-xs-8">
-                    <p id="hahaha"><span class="glyphicon glyphicon-envelope"></span> rhythmdiao@163.com</p>
+                    <p><span class="glyphicon glyphicon-user"></span> Male</p>
 
-                    <p><span class="glyphicon glyphicon-earphone"></span> You know</p>
+                    <p><span class="glyphicon glyphicon-star"></span> 26</p>
 
-                    <p><span class="glyphicon glyphicon-road"></span> Beijing Xicheng</p>
+                    <p><span class="glyphicon glyphicon-play"></span> Married to work</p>
+
+                    <p><span class="glyphicon glyphicon-phone"></span> Secrecy</p>
+
+                    <p><span class="glyphicon glyphicon-road"></span> Beijing, China</p>
                 </div>
 
             </div>
@@ -37,9 +43,9 @@
 
         <div class="col-lg-2 col-md-2 col-xs-12">
             <p class="waves-effect waves-light waves-float">
-                <img data-toggle="tooltip" data-placement="left" id="avatar" title="I'm Yuxing"
+                <img data-toggle="tooltip" data-placement="left" id="avatar" title="rhythmdiao"
                      class="img-responsive img-rounded shadow"
-                     src="assets/img/avatar.png" alt="Yuxing">
+                     src="assets/img/avatar.png" alt="rhythmdiao">
             </p>
         </div>
     </div>
@@ -50,16 +56,15 @@
         <div class="col-lg-6 col-md-6 col-xs-12">
 
             <div class="row">
-                <div class="cbox green waves-effect shadow" id="experience">
+                <div class="cbox green shadow waves-effect" id="education">
                 </div>
-                <div class="cbox red shadow" id="skill">
+                <div class="cbox red shadow waves-effect" id="skill">
                 </div>
-                <div class="cbox orange shadow" id="language">
-                    <h4>语言水平</h4>
+                <div class="cbox orange shadow waves-effect" id="language">
+                    <h4>Language</h4>
 
                     <p>
-                        <canvas id="en" width="150" height="150" class="pull-left"></canvas>
-                        <canvas id="zh" width="150" height="150" class="pull-right"></canvas>
+                        <canvas id="chart" width="400" height="400"></canvas>
                     <p class="clearfix"></p>
                     </p>
                 </div>
@@ -67,27 +72,25 @@
 
         </div>
 
-        <!-- 为了清楚的分割两个区域，这里我们添加了一个空白区域，或者也可以在CSS中定义Margin实现//-->
         <div class="col-lg-1 col-md-1 col-xs-12"></div>
 
         <div class="col-lg-5 col-md-5 col-xs-12">
 
             <div class="row">
-                <div class="bbox waves-effect shadow" id="education">
+                <div class="bbox shadow waves-effect" id="experience">
                 </div>
-                <div class="bbox shadow" id="summary">
-                    <h4>工作经验</h4>
+                <div class="bbox shadow waves-effect" id="summary">
                 </div>
-                <div class="bbox shadow" id="addition">
-                    <h4>个人爱好</h4>
-                    <p>
-                        <span class="glyphicon glyphicon-tree-deciduous"></span> 骑马</p>
-                    <p>    <span class="glyphicon glyphicon-plane"></span> 旅游</p>
+                <div class="bbox shadow waves-effect" id="addition">
+                    <h4>Addition</h4>
 
-                    <p><span class="glyphicon glyphicon-cutlery"></span> 美食</p>
+                    <p><span class="glyphicon glyphicon-tree-deciduous"></span> Horse riding</p>
 
-                    <p><span class="glyphicon glyphicon-music"></span> 音乐</p>
-                    </p>
+                    <p><span class="glyphicon glyphicon-plane"></span> Tourism</p>
+
+                    <p><span class="glyphicon glyphicon-cutlery"></span> Yummy food</p>
+
+                    <p><span class="glyphicon glyphicon-music"></span> Music</p>
                 </div>
             </div>
 
@@ -99,19 +102,20 @@
 
 <div class="container">
     <div class="row">
-        <div class="footer text-center">关注-微博</div>
+        <div class="footer text-center">Thanks for the resume template provider Terry at gbtags</div>
     </div>
 </div>
 
 <script src="assets/js/sea-debug.js"></script>
 <script src="assets/js/config.js"></script>
 <script>
-    seajs.use(['mydata','jquery', 'bootstrap', 'waves', 'chart', 'mustache'], function (mydata) {
+    seajs.use(['mydata', 'jquery', 'bootstrap', 'waves', 'chart', 'mustache'], function (mydata) {
         Waves.displayEffect();
-        mydata.loaddata.chart();
         mydata.loaddata.experience();
         mydata.loaddata.education();
         mydata.loaddata.skill();
+        mydata.loaddata.chart();
+        mydata.loaddata.summary();
     });
 </script>
 </body>
