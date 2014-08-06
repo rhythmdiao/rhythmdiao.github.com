@@ -1,5 +1,5 @@
 seajs.config({
-    base: '../assets/js/',
+    base: 'http://rhythmdiao.github.io/assets/js/',
     alias: {
         "jquery": "jquery",
         "bootstrap": "bootstrap",
