@@ -1,0 +1,64 @@
+body {
+    font-family: 'microsoft yahei', Arial, sans-serif;
+}
+
+.cvheader {
+    border-bottom: 1px solid #DFDFDF;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.cvheader h1 {
+    margin: 0;
+}
+
+.address {
+    background: #efb73e;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.cvbody {
+    padding-top: 50px;
+}
+
+.cbox {
+    margin-bottom: 30px;
+    color: #FFF;
+    padding: 50px;
+}
+
+.green {
+    background: #2ecc71;
+}
+
+.orange {
+    background: orange;
+}
+
+.red {
+    background: #dd4814;
+}
+
+.bbox {
+    border: 1px solid #DFDFDF;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding: 50px;
+}
+
+.footer {
+    margin: 30px 0 30px;
+    padding: 50px;
+    background: #CCC;
+    color: #FFF;
+}
+
+.shadow {
+    -moz-box-shadow: 0 3px 10px #888;
+    -webkit-box-shadow: 0 3px 10px #888;
+    box-shadow: 0 3px 10px #888;
+    -webkit-transition: .3s;
+    -moz-box-transition: .3s;
+    transition: .3s;
+}
