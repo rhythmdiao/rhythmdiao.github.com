@@ -1,6 +1,12 @@
 define(function (require, exports) {
-    var mydata = function () {
+    var mydata = {
+        version: "1.0.0",
+        author: "Rhythmdiao",
+        projecthome: "rhythmdiao.github.com",
     };
+    
+    mydata.eng = {};
+     
     mydata.eng = {
         skills: [
             { name: "Frontend: Bootstrap/Jquery/AJAX/Backbone/Flask", rating: 80},
